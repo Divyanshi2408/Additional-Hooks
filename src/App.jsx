@@ -3,6 +3,7 @@ import MemoizedList from './MemoizedList/MemoizedList'
 import ExpensiveHandlerExample from './calculateComplexScore/calculateComplexScore'
 import ParentComponent from './Parent-Child Component/ParentComponent'
 import SearchBox from './SearchBox/SearchBox'
+import CanvasDrawingApp from './CanvasDrawingApp/CanvasDrawingApp'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <ExpensiveHandlerExample/>
       <ParentComponent/>
       <SearchBox/>
+      <CanvasDrawingApp/>
     </div>
   )
 }
