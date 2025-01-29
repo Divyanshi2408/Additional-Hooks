@@ -2,6 +2,7 @@ import React from 'react'
 import MemoizedList from './MemoizedList/MemoizedList'
 import ExpensiveHandlerExample from './calculateComplexScore/calculateComplexScore'
 import ParentComponent from './Parent-Child Component/ParentComponent'
+import SearchBox from './SearchBox/SearchBox'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <MemoizedList/>
       <ExpensiveHandlerExample/>
       <ParentComponent/>
+      <SearchBox/>
     </div>
   )
 }
