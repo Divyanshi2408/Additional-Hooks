@@ -1,12 +1,12 @@
 import React from 'react'
-import MemoizedList from './MemoizedList/MemoizedList'
-import ExpensiveHandlerExample from './calculateComplexScore/calculateComplexScore'
-import ParentComponent from './Parent-Child Component/ParentComponent'
-import SearchBox from './SearchBox/SearchBox'
-import CanvasDrawingApp from './CanvasDrawingApp/CanvasDrawingApp'
-import DragAndDropUploader from './DragAndDropUploader/DragAndDropUploader'
-import MapWithDraggableMarkers from './MapWithDraggableMarkers/MapWithDraggableMarkers'
-import SortableTable from './SortableTable/SortableTable'
+import MemoizedList from './useCallback/MemoizedList/MemoizedList'
+import ExpensiveHandlerExample from './useCallback/calculateComplexScore/calculateComplexScore'
+import ParentComponent from './useCallback/Parent-Child Component/ParentComponent'
+import SearchBox from './useCallback/SearchBox/SearchBox'
+import CanvasDrawingApp from './useCallback/CanvasDrawingApp/CanvasDrawingApp'
+import DragAndDropUploader from './useCallback/DragAndDropUploader/DragAndDropUploader'
+import MapWithDraggableMarkers from './useCallback/MapWithDraggableMarkers/MapWithDraggableMarkers'
+import SortableTable from './useCallback/SortableTable/SortableTable'
 
 const data = [
   { name: "Eva", age: 45, city: "Houston" },
