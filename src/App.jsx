@@ -9,6 +9,7 @@ import MapWithDraggableMarkers from './useCallback/MapWithDraggableMarkers/MapWi
 import SortableTable from './useCallback/SortableTable/SortableTable'
 import MultiStepForm from './useReducer/MultiStepForm/MultiStepForm'
 import TextEditor from './useReducer/TextEditor/TextEditor'
+import ExpensiveComputationComponent from './useMemo/ExpensiveComputationComponent/ExpensiveComputationComponent'
 
 const data = [
   { name: "Eva", age: 45, city: "Houston" },
@@ -33,6 +34,7 @@ const App = () => {
       <SortableTable data={data} />
       <MultiStepForm/>
       <TextEditor/>
+      <ExpensiveComputationComponent/>
     </div>
   )
 }
