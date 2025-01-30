@@ -7,6 +7,7 @@ import CanvasDrawingApp from './useCallback/CanvasDrawingApp/CanvasDrawingApp'
 import DragAndDropUploader from './useCallback/DragAndDropUploader/DragAndDropUploader'
 import MapWithDraggableMarkers from './useCallback/MapWithDraggableMarkers/MapWithDraggableMarkers'
 import SortableTable from './useCallback/SortableTable/SortableTable'
+import MultiStepForm from './useReducer/MultiStepForm/MultiStepForm'
 
 const data = [
   { name: "Eva", age: 45, city: "Houston" },
@@ -29,6 +30,7 @@ const App = () => {
       <MapWithDraggableMarkers/>
       <h1>Sortable Table</h1>
       <SortableTable data={data} />
+      <MultiStepForm/>
     </div>
   )
 }
