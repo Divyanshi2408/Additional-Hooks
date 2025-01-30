@@ -8,6 +8,7 @@ import DragAndDropUploader from './useCallback/DragAndDropUploader/DragAndDropUp
 import MapWithDraggableMarkers from './useCallback/MapWithDraggableMarkers/MapWithDraggableMarkers'
 import SortableTable from './useCallback/SortableTable/SortableTable'
 import MultiStepForm from './useReducer/MultiStepForm/MultiStepForm'
+import TextEditor from './useReducer/TextEditor/TextEditor'
 
 const data = [
   { name: "Eva", age: 45, city: "Houston" },
@@ -31,6 +32,7 @@ const App = () => {
       <h1>Sortable Table</h1>
       <SortableTable data={data} />
       <MultiStepForm/>
+      <TextEditor/>
     </div>
   )
 }
