@@ -10,6 +10,7 @@ import SortableTable from './useCallback/SortableTable/SortableTable'
 import MultiStepForm from './useReducer/MultiStepForm/MultiStepForm'
 import TextEditor from './useReducer/TextEditor/TextEditor'
 import ExpensiveComputationComponent from './useMemo/ExpensiveComputationComponent/ExpensiveComputationComponent'
+import FilteredDataTable from './useMemo/FilteredDataTable/FilteredDataTable'
 
 const data = [
   { name: "Eva", age: 45, city: "Houston" },
@@ -35,6 +36,7 @@ const App = () => {
       <MultiStepForm/>
       <TextEditor/>
       <ExpensiveComputationComponent/>
+      <FilteredDataTable/>
     </div>
   )
 }
