@@ -11,6 +11,7 @@ import MultiStepForm from './useReducer/MultiStepForm/MultiStepForm'
 import TextEditor from './useReducer/TextEditor/TextEditor'
 import ExpensiveComputationComponent from './useMemo/ExpensiveComputationComponent/ExpensiveComputationComponent'
 import FilteredDataTable from './useMemo/FilteredDataTable/FilteredDataTable'
+import CachingAPIComponent from './useMemo/CachingAPIComponent/CachingAPIComponent'
 
 const data = [
   { name: "Eva", age: 45, city: "Houston" },
@@ -37,6 +38,7 @@ const App = () => {
       <TextEditor/>
       <ExpensiveComputationComponent/>
       <FilteredDataTable/>
+      <CachingAPIComponent/>
     </div>
   )
 }
