@@ -13,6 +13,7 @@ import ExpensiveComputationComponent from './useMemo/ExpensiveComputationCompone
 import FilteredDataTable from './useMemo/FilteredDataTable/FilteredDataTable'
 import CachingAPIComponent from './useMemo/CachingAPIComponent/CachingAPIComponent'
 import DependentDropdowns from './useMemo/DependentDropdowns'
+import Dashboard from './useMemo/Dashboard/Dashboard'
 
 const data = [
   { name: "Eva", age: 45, city: "Houston" },
@@ -41,6 +42,7 @@ const App = () => {
       <FilteredDataTable/>
       <CachingAPIComponent/>
       <DependentDropdowns/>
+      <Dashboard/>
     </div>
   )
 }
